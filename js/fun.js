@@ -35,7 +35,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function (obj) { this.__WB_source = obj; r
                 c = 0, d = 0;
 
             me.className = add;
-            list.style.marginTop = '-' + (((i + 1) * 25) / 2) + 'px';
+            //list.style.marginTop = '-' + (((i + 1) * 25) / 2) + 'px';
 
             var inty = setInterval(function () {
                 me.innerHTML = html[i].substr(0, c) + '<span class="typing">|</span>';
