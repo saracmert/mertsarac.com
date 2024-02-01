@@ -17,7 +17,6 @@ body {
 
 ul.content {
     list-style: none;
-    position: absolute;
     left: 130px;
     top: 10%;
     width: 50%;
