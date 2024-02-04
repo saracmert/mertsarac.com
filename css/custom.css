@@ -1,4 +1,3 @@
-/* C to the S to the S */
 @import 'keyframe.css';
 
 * {
@@ -9,8 +8,8 @@
 
 body {
     background: #f9f9f9 url('../img/subtle_dots.png') repeat !important;
-    color: #222 !important;    
-    font: 15px/24px "Bitstream Vera Sans Mono", "Anonymous Pro", "Consolas", monospace !important;
+    color: #222 !important;
+    font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif !important;
     text-shadow: 0 1px 1px rgba(0,0,0,.25) !important;
     letter-spacing: -0.01em !important;
 }
@@ -46,12 +45,6 @@ ul li {
     -o-animation: flick 1s infinite;
     animation: flick 1s infinite;
 }
-
-/*.dollar:before {
-    content: '$';
-    padding-right: 20px;    
-    color: #50657b;
-}*/
 
 @media (max-width: 550px) {
     body {
