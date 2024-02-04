@@ -39,7 +39,7 @@ if (!self.__WB_pmw) { self.__WB_pmw = function (obj) { this.__WB_source = obj; r
 
             var inty = setInterval(function () {
                 me.innerHTML = html[i].substr(0, c) + '<span class="typing">|</span>';
-
+                window.scrollTo(0, document.body.scrollHeight);
                 c++;
 
                 if (html[i].length < c) {
@@ -55,8 +55,6 @@ if (!self.__WB_pmw) { self.__WB_pmw = function (obj) { this.__WB_source = obj; r
                     }
                 }
             }, 50);
-
-            window.scrollTo(0, document.body.scrollHeight);
         };
 
         animate(0);
